@@ -1,8 +1,8 @@
-#creating a simple function
-def my_function(fname):
-  print(fname + " Goslee")
+""" Git Branching """
 
-my_function("Trenisha")
-my_function("Deshaunte")
+def good_morning(day):
+  print(f"Good morning! Happy {day}~")
+
+good_morning("Friday")
 
 
