@@ -1,8 +1,9 @@
 """ Git Branching """
+from datetime import datetime
 
-def good_morning(day):
-  print(f"Good morning! Happy {day}~")
+def good_morning():
+  print(f"Good morning! Happy {datetime.today().strftime('%A')}~")
 
-good_morning("Friday")
+good_morning()
 
 
